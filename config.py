@@ -33,15 +33,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/justayu/SoloCloud",
+    "https://github.com/Alex-Trojans/TrojansTanusolo",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Life_Codes")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Life_Codes")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/trojans_community")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/trojans_association")
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", True)
@@ -85,7 +85,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://i.pinimg.com/236x/57/ec/22/57ec223ee51d8753168de1af3ede1aeb.jpg"
+    "START_IMG_URL", "https://te.legra.ph/file/91327ef7e44a927aa0b3e.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://i.pinimg.com/564x/d9/b5/46/d9b5464b3de60b9b1df325e41cf22fd3.jpg"
